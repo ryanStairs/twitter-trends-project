@@ -82,11 +82,12 @@ class TrendDetails extends React.Component{
         if(this.state.popularTweets[0]){
             // if user is verified render verified image
             tweets = this.state.popularTweets;
-            if(tweets[0].user.verified){
-                vf = this.ver();
-            }
+            
             // maps through and creates visual representation on screen for each tweet
             displayTweets = tweets.map((twt,index) => {
+                if(tweets[index].user.verified){
+                    vf = this.ver();
+                }
                 return (
                     <div key={index} className='details-tweet'>
                         <div className='tweet-user'>

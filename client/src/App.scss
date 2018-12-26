@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400,500,700|Poppins:400,500,600,700");
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.App {
+  background-image: url(./Assets/sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(56, 161, 243, 0.5);
+  height: 14vh;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+
+  h1 {
+    margin: 0;
+    font-size: 3.0rem;
+  }
+
+  .header-location {
+    margin-bottom: 15px;
+  }
+
+  .bold-text {
+    margin-left: 5px;
+    margin-right: 0;
+    font-weight: 600;
+  }
+
+  img {
+    height: 116px;
+  }
+
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.loading-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 25vh;
+
+  .loading {
+    border: 10px solid rgb(243, 243, 243);
+    border-radius: 50%;
+    border-top: 10px solid rgb(56, 161, 243);
+    border-right: 10px solid rgb(56, 161, 243);
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spinner 2s linear infinite;
+    animation: spinner 2s linear infinite;
+  }
+
+  @-webkit-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+.trends-main {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 76vh;
+
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+}
+
+
+.trend-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: white;
+  border: 1px solid rgba(56, 161, 243, 1);
+  border-radius: 3px;
+  box-shadow: 0.75px 1.5px rgba(56, 161, 243, 0.6);
+  height: 50px;
+
+  .trend-name {
+    display: flex;
+    justify-content: flex-start;
+    width: 180px;
+    font-weight: 600;
+    overflow: hidden;
+  }
+
+  .trend-volume {
+    display: flex;
+    justify-content: flex-start;
+    width: 90px;
+  }
+
+  .trend-sentiment {
+    display: flex;
+    justify-content: flex-start;
+    width: 70px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: relative;
+    top: 2px;
+  }
+
+  .trend-emotion {
+    position: relative;
+    top: 2px;
+    font-size: 1.5rem;
+  }
+
+}
+
+.trend-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(56, 161, 243, 0.3), 0 6px 20px 0 rgba(56, 161, 243, 0.4);
+  transition: 0.2s;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: block;
+}
+
+.margin-right {
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.royalblue {
+  color: royalblue;
+}
+
+.blue {
+  color: blue;
+}
+
+.grey {
+  color: grey;
+}
+
+.trend-details-main {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  flex-direction: column;
+
+  .details-first {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    overflow: hidden;
+    width: 50vw;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+
+    h2 {
+      margin: 0;
+      border-bottom: 1px solid blue;
+      margin-bottom: 10px;
+    }
+
+    .emotions-center {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+
+    .volume-title {
+      margin-right: 10px;
+    }
+
+    .sent-sizing {
+      font-size: 1.4rem;
+    }
+
+    .chart-container {
+      display: flex;
+      width: 100%;
+      height: 260px;
+    }
+  }
+
+  .details-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+
+    h4 {
+      margin: 0;
+      font-size: 1.1rem;
+      border-bottom: 1px solid blue;
+      width: 100%;
+    }
+
+    .news-subtitle {
+      margin-top: 5px;
+    }
+
+    img {
+      object-fit: cover;
+      width: 48vw;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .details-tweet {
+    margin-top: 10px;
+    width: 50vw;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    .tweet-user {
+      display: flex;
+      justify-content: space-between;
+
+      .tweet-user__left {
+        display: flex;
+        padding: 20px;
+
+        .tweet-user__left-left {
+          margin-right: 11px;
+
+          #user-image {
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+
+        .tweet-user__left-right {
+          display: flex;
+          flex-direction: column;
+
+          #verified {
+            margin-left: 5px;
+            height: 18px;
+            width: 18px;
+          }
+        }
+      }
+
+      .tweet-user__right {
+        padding: 20px 25px;
+        height: 80px;
+        width: 80px;
+
+        .img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+
+    .tweet-text {
+      font-weight: 600;
+      font-size: 1.0rem;
+      display: flex;
+      margin-left: 25px;
+      margin-right: 25px;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .tweet-date {
+      margin-left: 25px;
+    }
+
+    .tweet-actions {
+      margin: 20px 25px 20px 25px;
+      border-top: 1px solid lightgrey;
+      border-bottom: 1px solid lightgrey;
+      padding: 10px;
+
+      img {
+        height: 20px;
+        width: 20px;
+      }
+
+      #reply {
+        margin-right: 20px;
+      }
+
+      #like {
+        margin-right: 5px;
+        font-weight: 700;
+      }
+
+      #retweet {
+        margin-right: 5px;
+        font-weight: 700;
+      }
+
+      #retweet-title {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+footer {
+  height: 10vh;
+  background-color: rgba(56, 161, 243, 0.5);
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 500;
+
+  span {
+    margin-right: 10px;
+  }
+
+  #tweety-bird {
+    height: 50px;
+    width: 50xpx;
+  }
+
+  img {
+    height: 45px;
+    width: 50xp;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media(max-width: 1100px) {
+  .trend-details-main {
+
+    .details-first,
+    .details-news,
+    .details-twats,
+    .details-tweet {
+      width: 95vw;
+    }
+
+    .details-news {
+      img {
+        width: 90vw;
+      }
+    }
+  }
+}
+
+@media(max-width: 657px) {
+  header {
+    img {
+      display: none;
+    }
+  }
+
+  .trend-details-main {
+
+
+    .details-first {
+
+      .emotions-center {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+    }
+  }
+
+}
+
+@media(max-width: 523px) {
+  header {
+    justify-content: center;
+    align-items: center;
+
+    // height: 14vh;
+    h1 {
+      font-size: 2.0rem;
+    }
+
+    .header-location {
+      margin-bottom: 0px;
+    }
+  }
+
+  .trends-main {
+    height: 86vh;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .trend-container {
+    width: 95vw;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 1rem;
+
+    .trend-sentiment {
+      width: 40px;
+    }
+
+    .trend-volume {
+      width: 80px;
+    }
+  }
+}
+
+@media(max-height: 750px) {
+  header {
+    // display: none;
+    // .header-location{
+    //   display: none;
+    // }
+  }
+
+  .trends-main {
+    justify-content: flex-start;
+    height: 100vh;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media(max-width: 414px) {
+  .trends-main {
+    justify-content: flex-start;
+    height: 105vh;
+  }
+}
+
+@media(max-width: 333px) {
+  .trends-main {
+    height: 143vh;
+  }
+
+  .trend-container {
+    height: 70px;
+
+    .trend-sentiment {
+      width: 30px;
+    }
+
+    .trend-volume {
+      width: 75px;
+    }
+
+    .trend-emotion {
+      // position: relative;
+      left: 125px;
+    }
+  }
+
+}

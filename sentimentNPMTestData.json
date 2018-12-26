@@ -1,0 +1,71 @@
+[{
+    "score": 3,
+    "comparative": 0.045454545454545456,
+    "tokens": ["as", "christmas", "gears", "up", "again", "a", "quick", "seasonal", "request", "i", "choose", "not", "to", "drink", "alcohol", "but", "there", "are", "plenty", "of", "peopl…", "httpstcofnlki8dbso✨", "it’s", "beginning", "to", "feel", "a", "lot", "like", "christmas", "✨", "httpstco1gh8zjazh1christmas", "in", "washington", "is", "full", "of", "time-honored", "historic", "traditions—especially", "christmas", "at", "the", "white", "house", "", "", "che…", "httpstcog7puik5yklwhat", "color", "should", "i", "dye", "my", "hair", "after", "christmasafter", "christmas", "i’m", "going", "shopping", "for", "me", "amp", "raylee", ""],
+    "words": ["✨", "like"],
+    "positive": ["✨", "like"],
+    "negative": []
+}, {
+    "score": -16,
+    "comparative": -0.17204301075268819,
+    "tokens": ["very", "sad", "day", "amp", "night", "in", "paris", "maybe", "it’s", "time", "to", "end", "the", "ridiculous", "and", "extremely", "expensive", "paris", "agreement", "and", "re…", "httpstcobkxavagehgthe", "paris", "agreement", "isn’t", "working", "out", "so", "well", "for", "paris", "protests", "and", "riots", "all", "over", "france", "people", "do", "not", "want", "to…", "httpstcozgn65egkzbmacron", "18", "approval", "rating", "riots", "in", "streets", "paris", "on", "fire", "economy", "in", "ruin", "middle", "class", "revolting", "", "trump", "50", "a…", "httpstcosr6f9dugt4rt", "@realjameswoods", "paris", "under", "a", "president", "obama", "endorsed", "httpstcozbifhh5tyqrt", "@realdonaldtrump", "very", "sad", "day", "amp", "night", "in", "paris", "maybe", "it’s", "time", "to", "end", "the", "ridiculous", "and", "extremely", "expensive", "paris", "agreement", "and", "retur…"],
+    "words": ["agreement", "ridiculous", "sad", "endorsed", "revolting", "ruin", "fire", "riots", "approval", "want", "riots", "protests", "agreement", "agreement", "ridiculous", "sad"],
+    "positive": ["agreement", "endorsed", "approval", "agreement", "agreement"],
+    "negative": ["ridiculous", "sad", "revolting", "ruin", "fire", "riots", "want", "riots", "protests", "ridiculous", "sad"]
+}, {
+    "score": 7,
+    "comparative": 0.1044776119402985,
+    "tokens": ["this", "is", "not", "how", "expected", "to", "find", "out", "i’m", "nominated", "for", "a", "grammy", "😩😩😂i", "need", "a", "do", "over", "🤦🏽‍♀️🤦🏽‍♀️😩", "httpstcoact5wh6zwz@btstwt", "earns", "2019", "grammys", "nomination", "here's", "why", "it's", "important", "httpstcok6rdmcynxl", "httpstco2us80hhxjhcongratulations", "to", "@btstwt's", "'love", "yourself", "tear'", "for", "earning", "a", "2019", "grammy", "nomination", "for", "best", "recording", "package…", "httpstco7on8pdjmvgrt", "@billboard", "@btstwt", "earns", "2019", "grammys", "nomination", "here's", "why", "it's", "important", "httpstcok6rdmcynxl", "httpstco2us80hhxjhrt", "@yoonscateyes", "ain’t", "this", "that", "grammy", "nominated", "album", "cover", "httpstcoihw5n8dbhz"],
+    "words": ["important", "best", "important"],
+    "positive": ["important", "best", "important"],
+    "negative": []
+}, {
+    "score": 5,
+    "comparative": 0.049019607843137254,
+    "tokens": ["every", "5", "minutes", "or", "so", "a", "big", "cloud", "of", "tear", "gas", "comes", "our", "way", "", "our", "paris", "correspondent", "@anneliseborges", "was", "at", "the…", "httpstcorlqs5rb6ir8decembre", "the", "yellow", "vests", "have", "the", "sense", "of", "spectacle", "and", "symbol", "in", "saint-flour", "this", "saturday", "they", "carried", "th…", "httpstcopacxvzvb7dupdate", "from", "french", "interior", "minister", "castaner", "as", "of", "730", "pm", "local", "time", "125k", "yellowvests", "marched", "in", "franceprotest…", "httpstcowzc5lvprodrt", "@hudhudchat", "how", "do", "noble", "quran", "and", "islam", "honor", "mary?", "", "kindly", "chat", "with", "us", "to", "get", "answer", "at", "httpstco5dqobads8n", "", "shareyourans…rt", "@syrianlion", "have", "you", "ever", "noticed", "the", "european", "flag", "on", "armored", "vehicles?", "", "may", "you", "understand", "wy", "macron", "", "need", "to", "establish", "a", "european…"],
+    "words": ["honor", "noble", "big"],
+    "positive": ["honor", "noble", "big"],
+    "negative": []
+}, {
+    "score": -10,
+    "comparative": -0.09615384615384616,
+    "tokens": ["the", "real", "news", "right", "now", "is", "not", "about", "cohen’s", "sentence", "", "it", "is", "about", "the", "conclusion", "by", "federal", "prosecutors", "that", "dona…", "httpstcove4lajymvnwow", "the", "dec", "7", "filing", "in", "sdny", "on", "michael", "cohen’s", "sentencing", "charges", "that", "president", "trump", "aka", "“individual", "1”", "direc…", "httpstcokmi8yrdqfnpress", "reduced", "to", "now", "claiming", "big", "news", "of", "cohen", "memo", "is", "that", "there", "was", "russia", "contact", "all", "the", "way", "back", "in", "2015…", "httpstcoltgpzxa0ahrt", "@phxken", "boom", "attorney", "gregg", "jarrett", "destroys", "liberal", "ny", "ag", "and", "the", "snot-nosed", "kids", "and", "morons", "on", "staff", "behind", "cohen", "report", "https…rt", "@gayegallops", "mueller", "memos", "worth", "30m?", "", "mandate", "is", "to", "uncover", "past", "crimesnot", "to", "provoke", "new", "crimes", "", "cohentax", "evasionbreak", "campaign…"],
+    "words": ["crimes", "provoke", "worth", "destroys", "big", "charges", "sentencing", "sentence"],
+    "positive": ["worth", "big"],
+    "negative": ["crimes", "provoke", "destroys", "charges", "sentencing", "sentence"]
+}, {
+    "score": 12,
+    "comparative": 0.16216216216216217,
+    "tokens": ["smash", "players", "but", "i", "don’t", "play", "kirby", "sakurai", "then", "you", "better", "learnwho", "want", "smoke", "on", "smash", "bro’sit's", "time", "for", "a", "christmas", "giveaway", "with", "smash", "ultimate", "2", "switch", "ultimate", "bundles", "two", "winners", "here's", "how", "", "", "🙌", "fol…", "httpstco9pmnp77m0grt", "@megaman", "congratulations", "on", "the", "smash", "bros", "ultimate", "launch", "@nintendoamerica", "", "", "you", "in", "for", "a", "few", "rounds", "@sonichedgehog?", "we'd", "make", "a…i", "liked", "a", "@youtube", "video", "httpstcoehpelnvsjk", "joker", "from", "persona", "5", "in", "super", "smash", "bros", "ultimate", "reaction"],
+    "words": ["super", "liked", "congratulations", "🙌", "want", "better"],
+    "positive": ["super", "liked", "congratulations", "🙌", "want", "better"],
+    "negative": []
+}, {
+    "score": -13,
+    "comparative": -0.1368421052631579,
+    "tokens": ["plot", "twist", "nick", "cannon", "digs", "up", "homophobic", "tweets", "from", "amy", "schumer", "sarah", "silverman", "and", "chelsea", "handler", "—", "are", "they…", "httpstcol7rgydjbblthe", "bad", "old", "days", "are", "back", "chelsea", "you", "have", "been", "shamed", "by", "this", "disgusting", "racist", "fan", "absolutely", "no", "doubt", "about", "wh…", "httpstco64vphpbprzchelsea", "end", "man", "city’s", "unbeaten", "start", "to", "the", "season", "with", "a", "hard-earned", "win", "", "chemci", "httpstcot7dc4oks6prt", "@popcrave", "@nickcannon", "expresses", "confusion", "over", "the", "lack", "of", "outrage", "over", "chelsea", "handler's", "sarah", "silverman's", "and", "amy", "schumer's", "homoph…rt", "@skysportspl", "goal", "", "chelsea", "2-0", "manchester", "city", "", "follow", "live", "updates", "and", "watch", "in-game", "clips", "from", "@chelseafc’s", "clash", "with", "@mancity", "here…"],
+    "words": ["clash", "outrage", "lack", "win", "doubt", "no", "fan", "racist", "disgusting", "shamed", "bad"],
+    "positive": ["win", "fan"],
+    "negative": ["clash", "outrage", "lack", "doubt", "no", "racist", "disgusting", "shamed", "bad"]
+}, {
+    "score": 9,
+    "comparative": 0.13043478260869565,
+    "tokens": ["in", "theaters", "april", "26", "2019", "avengersendgame", "httpstcovrpgly6qzucheck", "out", "the", "new", "poster", "for", "marvel", "studios'", "avengersendgame", "in", "theaters", "april", "26", "2019", "httpstcodfymiq006othanos", "did", "exactly", "what", "he", "said", "he", "was", "gonna", "do", "avengersendgame", "httpstcokbo8h3gblv", "httpstcon45glqzzgtrt", "@hydrorayz", "“part", "of", "the", "journey", "is", "the", "end”", "", "it’s", "the", "perfect", "time", "to", "do", "this", "again", "before", "avengersendgame", "httpstcotkaqz3vq0hrt", "@marvelstudios", "check", "out", "the", "new", "poster", "for", "marvel", "studios'", "avengersendgame", "in", "theaters", "april", "26", "2019", "httpstcodfymiq006o"],
+    "words": ["marvel", "perfect", "marvel"],
+    "positive": ["marvel", "perfect", "marvel"],
+    "negative": []
+}, {
+    "score": 1,
+    "comparative": 0.011764705882352941,
+    "tokens": ["dear", "@realdonaldtrump", "i", "think", "you", "might", "not", "know", "that", "the", "person", "prosecutors", "identify", "as", "individual-1", "who", "committ…", "httpstco8apbxm0ye5who’s", "going", "to", "tell", "individual", "1?", "httpstcoolhixo06bpwow", "the", "dec", "7", "filing", "in", "sdny", "on", "michael", "cohen’s", "sentencing", "charges", "that", "president", "trump", "aka", "“individual", "1”", "direc…", "httpstcokmi8yrdqfnrt", "@bettemidler", "bet", "individual", "1", "is", "making", "a", "bunch", "of", "individual", "2s", "in", "his", "pants", "right", "now", "what", "with", "individuals", "34amp9", "breathing", "down…@realdonaldtrump", "lol", "you've", "never", "been", "their", "either", "cadet", "bone", "spurs", "you", "know", "that", "draft", "you", "dodged", "4", "times", "smh", "y…", "httpstcosqmpo8bt1u"],
+    "words": ["lol", "charges", "sentencing", "dear"],
+    "positive": ["lol", "dear"],
+    "negative": ["charges", "sentencing"]
+}, {
+    "score": 16,
+    "comparative": 0.2909090909090909,
+    "tokens": ["kyler", "murray", "takes", "home", "the", "heisman", "hardware", "🏆", "httpstco5tndciey6rkyler", "murray", "heisman", "trophy", "winner", "httpstco5rodchvy3l2018", "heisman", "trophy", "winner", "", "kyler", "murray", "🏆", "httpstcoxaiylisiudrt", "@sportscenter", "first", "round", "ko", "✔️", "", "backflip", "celebration", "✔️", "strike", "the", "heisman", "pose", "✔️", "", "", "teofimo", "lopez", "is", "nasty", "httpstco7cnropk7yvrt", "@bleacherreport", "kyler", "murray", "takes", "home", "the", "heisman", "🏆", "", "➡️", "@digiorno", "httpstcogm01jgipsn"],
+    "words": ["🏆", "nasty", "strike", "celebration", "🏆", "winner", "winner", "🏆"],
+    "positive": ["🏆", "celebration", "🏆", "winner", "winner", "🏆"],
+    "negative": ["nasty", "strike"]
+}]
